@@ -1,0 +1,46 @@
+.app{
+  text-align: center;
+}
+
+.cards-container{
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+  grid-template-rows:repeat(auto-fill, auto-fill) ;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  width: 100%;
+}
+.card{
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.card:hover{
+  background-color: lightgray;
+  
+}
+
+.button{
+  background-color: green;
+  color: white;
+  padding: 3px 5px;
+  width: 110px;
+  height: 40px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: lightgreen;
+  color: black;
+}
